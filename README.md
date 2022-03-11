@@ -73,22 +73,34 @@ the steps below.
 
 ### Installation
 
-<h3>Windows</h3>
+<h2>Windows</h2>
 <br>
 
 * Azure Static Web Apps
   ```sh
-  npm install npm@latest -g
+  npm i -g azure-functions-core-tools@4 --unsafe-perm true
   ```
-
-3. Install NPM packages
+ ### How to run 
+ 
+ <h2>Visual Studio Code</h2>
+ <br>
+ <p>Open terminal in the same project directory and navigate to PowerUnit.AdminDashboards and run the following command </p>
+  ```sh
+  dotnet watch
+  ```
+  <p>Now, make sure the previous process is running and open a new terminal in the root directory of the project. Then navigate to PowerUnit.AzureFunctions and run the 
+  following command </p>
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  func start
+  ```
+  <p>At this point you should have two proccesses running, last but not the least open another ternimal in your root project directory and run the following command</p>
+   ```sh
+  swa start https://localhost:5001 --api-location http://localhost:7071
+  ```
+  ***NOTE: The port numbers are defined in the projects settings file and must be changed in the above command if the it is changed in the settings file***
+ 
+ 
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
