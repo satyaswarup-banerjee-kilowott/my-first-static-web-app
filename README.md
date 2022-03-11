@@ -60,7 +60,7 @@ Need to put some good content
 
 
 <!-- GETTING STARTED -->
-## Getting Started :fire
+## Getting Started :fire:
 
 In order to run this project on your local system to need to follow 
 the steps below.
