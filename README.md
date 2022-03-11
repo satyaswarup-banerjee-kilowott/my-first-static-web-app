@@ -47,7 +47,7 @@ Need to put some good content
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+//This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 
 * [Dotnet C#](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet-framework)
@@ -67,10 +67,13 @@ the steps below.
 
 ### Prerequisites
 
-1. [Node Js used be installed in your computer](https://nodejs.org/en/)
+1. [Node Js ](https://nodejs.org/en/)
 2. Azure Static Web Apps
 
-<h1>Windows</h1>
+
+### Installation
+
+<h3>Windows</h3>
 <br>
 
 * Azure Static Web Apps
@@ -78,15 +81,6 @@ the steps below.
   npm install npm@latest -g
   ```
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
 3. Install NPM packages
    ```sh
    npm install
