@@ -84,18 +84,22 @@ the steps below.
  
  <h2>Visual Studio Code</h2>
  <br>
- <p>Open terminal in the same project directory and navigate to PowerUnit.AdminDashboards and run the following command </p>
+<p>Open terminal in the same project directory and navigate to PowerUnit.AdminDashboards and run the following command </p>
   ```sh
   dotnet watch
   ```
-  <p>Now, make sure the previous process is running and open a new terminal in the root directory of the project. Then navigate to PowerUnit.AzureFunctions and run the 
+ <p>Now, make sure the previous process is running and open a new terminal in the root directory of the project. Then navigate to PowerUnit.AzureFunctions and run the 
   following command </p>
-   ```sh
-  func start
+  
+  * Azure Static Web Apps
+  ```sh
+  npm i -g azure-functions-core-tools@4 --unsafe-perm true
   ```
-  <p>At this point you should have two proccesses running, last but not the least open another ternimal in your root project directory and run the following command</p>
-   ```sh
-  swa start https://localhost:5001 --api-location http://localhost:7071
+<p>At this point you should have two proccesses running, last but not the least open another ternimal in your root project directory and run the following command</p>
+  
+   * Azure Static Web Apps
+  ```sh
+  npm i -g azure-functions-core-tools@4 --unsafe-perm true
   ```
   ***NOTE: The port numbers are defined in the projects settings file and must be changed in the above command if the it is changed in the settings file***
  
