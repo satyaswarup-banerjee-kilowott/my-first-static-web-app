@@ -1,8 +1,9 @@
 
 <div align="center">
   
-   <a href="https://www.flaticon.com/free-icons/documents" title="documents icons">Documents icons created by Freepik - Flaticon</a>
-
+  
+    <img src="documents.png" alt="Logo" width="80" height="80">
+  
   <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
